@@ -2,7 +2,6 @@ package com.example.day3.SampleMovie;
 
 import java.util.ArrayList;
 
-import android.graphics.Movie;
 
 /**
  *packageName    : com.example.day3.SampleRequest2
