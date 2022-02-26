@@ -5,6 +5,7 @@
     >
     
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     
     <permission
         android:name="com.example.day3.READ_DATABASE"
@@ -24,6 +25,16 @@
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         android:usesCleartextTraffic="true"
         >
+        <activity
+            android:name=".SampleContacts.MainContactsActivity"
+            android:exported="true"
+            >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+    
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter >
+        </activity >
         <activity
             android:name=".SampleAlbum.MainAlbumActivity"
             android:exported="true"
