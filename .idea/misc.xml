@@ -5,7 +5,9 @@
       <map>
         <entry key="..\:/Users/ipeac/AndroidStudioProjects/Day3/app/src/main/res/drawable/ic_launcher_background.xml" value="0.399" />
         <entry key="..\:/Users/ipeac/AndroidStudioProjects/Day3/app/src/main/res/layout/activity_main.xml" value="0.30185185185185187" />
+        <entry key="..\:/Users/ipeac/AndroidStudioProjects/Day3/app/src/main/res/layout/activity_main_album.xml" value="0.31296296296296294" />
         <entry key="..\:/Users/ipeac/AndroidStudioProjects/Day3/app/src/main/res/layout/activity_main_movie.xml" value="0.30185185185185187" />
+        <entry key="..\:/Users/ipeac/AndroidStudioProjects/Day3/app/src/main/res/layout/activity_main_provider.xml" value="0.262037037037037" />
         <entry key="..\:/Users/ipeac/AndroidStudioProjects/Day3/app/src/main/res/layout/activity_main_request2.xml" value="0.30185185185185187" />
         <entry key="..\:/Users/ipeac/AndroidStudioProjects/Day3/app/src/main/res/layout/movie_item.xml" value="0.30185185185185187" />
       </map>
