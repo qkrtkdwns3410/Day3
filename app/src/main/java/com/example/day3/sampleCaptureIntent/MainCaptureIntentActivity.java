@@ -66,8 +66,8 @@ public class MainCaptureIntentActivity extends AppCompatActivity implements Auto
 			if (file == null) {
 				  file = createFile();
 			}
-			
-			Uri fileUri = FileProvider.getUriForFile(this, "com.example.day3.sampleCaptureIntent.fileprovider", file);
+		 
+			Uri fileUri = FileProvider.getUriForFile(this, "com.example.day3.fileprovider", file);
 			Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
 			intent.putExtra(MediaStore.EXTRA_OUTPUT, fileUri);
 			if (intent.resolveActivity(getPackageManager()) != null) {
