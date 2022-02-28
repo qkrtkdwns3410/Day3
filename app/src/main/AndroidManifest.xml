@@ -29,6 +29,36 @@
         android:usesCleartextTraffic="true"
         >
         <activity
+            android:name=".graphics.custom.image.MainViewImageActivity"
+            android:exported="true"
+            >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+    
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter >
+        </activity >
+        <activity
+            android:name=".graphics.custom.drawable.MainCustomViewDrawableActivity"
+            android:exported="true"
+            >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+    
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter >
+        </activity >
+        <activity
+            android:name=".graphics.custom.style.MainActivity"
+            android:exported="true"
+            >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+    
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter >
+        </activity >
+        <activity
             android:name=".graphics.custom.MainGraphicsActivity"
             android:exported="true"
             >
