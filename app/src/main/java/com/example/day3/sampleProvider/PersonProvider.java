@@ -1,7 +1,4 @@
-package com.example.day3.SampleProvider;
-
-import java.io.PipedReader;
-import java.sql.SQLException;
+package com.example.day3.sampleProvider;
 
 import android.content.ContentProvider;
 import android.content.ContentUris;

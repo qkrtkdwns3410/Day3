@@ -1,9 +1,8 @@
-package com.example.day3.SampleProvider;
+package com.example.day3.sampleProvider;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-import androidx.annotation.Nullable;
 
 /**
  *packageName    : com.example.day3.SampleProvider

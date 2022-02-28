@@ -1,4 +1,4 @@
-package com.example.day3.SampleMovie;
+package com.example.day3.sampleMovie;
 
 import java.util.ArrayList;
 

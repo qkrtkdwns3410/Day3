@@ -1,6 +1,4 @@
-package com.example.day3.SampleProvider;
-
-import java.net.URI;
+package com.example.day3.sampleProvider;
 
 import com.example.day3.R;
 

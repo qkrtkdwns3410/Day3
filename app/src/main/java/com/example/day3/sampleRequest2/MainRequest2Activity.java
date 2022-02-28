@@ -1,4 +1,4 @@
-package com.example.day3.SampleRequest2;
+package com.example.day3.sampleRequest2;
 
 import java.util.HashMap;
 import java.util.Map;

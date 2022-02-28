@@ -6,9 +6,15 @@
     
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.WRITE_CONTACTS" />
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true"
+        />
     
     <permission
         android:name="com.example.day3.READ_DATABASE"
@@ -28,13 +34,58 @@
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         android:usesCleartextTraffic="true"
         >
+        
+        <provider
+            android:authorities="com.example.day3.sampleCaptureIntent.fileprovider"
+            android:name="androidx.core.content.FileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            >
+            
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/external"
+                />
+        
+        </provider >
+        
+        <activity
+            android:name=".sampleCaptureIntent.MainCaptureIntentActivity"
+            android:exported="true"
+            >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter >
+        </activity >
+        <activity
+            android:name=".sampleMulitiTouch.MainSampleMultitouchActivity"
+            android:exported="true"
+            >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter >
+        </activity >
+        <activity
+            android:name=".paint.MainActivity"
+            android:exported="true"
+            >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter >
+        </activity >
         <activity
             android:name=".graphics.custom.image.MainViewImageActivity"
             android:exported="true"
             >
             <intent-filter >
                 <action android:name="android.intent.action.MAIN" />
-    
+                
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter >
         </activity >
@@ -79,7 +130,7 @@
             </intent-filter >
         </activity >
         <activity
-            android:name=".SampleAlbum.MainAlbumActivity"
+            android:name=".sampleAlbum.MainAlbumActivity"
             android:exported="true"
             >
             <intent-filter >
@@ -90,7 +141,7 @@
         </activity >
         
         <provider
-            android:name=".SampleProvider.PersonProvider"
+            android:name=".sampleProvider.PersonProvider"
             android:authorities="com.example.day3"
             android:exported="true"
             android:readPermission="com.example.day3.READ_DATABASE"
@@ -98,7 +149,7 @@
             />
         
         <activity
-            android:name=".SampleProvider.MainProviderActivity"
+            android:name=".sampleProvider.MainProviderActivity"
             android:exported="true"
             android:readPermission="com.example.day3.READ"
             >
@@ -109,7 +160,7 @@
             </intent-filter >
         </activity >
         <activity
-            android:name=".SampleMovie.MainMovieActivity"
+            android:name=".sampleMovie.MainMovieActivity"
             android:exported="true"
             >
             <intent-filter >
@@ -119,7 +170,7 @@
             </intent-filter >
         </activity >
         <activity
-            android:name=".SampleRequest2.MainRequest2Activity"
+            android:name=".sampleRequest2.MainRequest2Activity"
             android:exported="true"
             >
             <intent-filter >

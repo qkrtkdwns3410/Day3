@@ -1,4 +1,4 @@
-package com.example.day3.SampleMovie;
+package com.example.day3.sampleRequest2;
 
 /**
  *packageName    : com.example.day3.SampleRequest2

@@ -1,8 +1,12 @@
-package com.example.day3.SampleRequest2;
+package com.example.day3.sampleRequest2;
+
+import java.util.ArrayList;
+
+import com.example.day3.sampleMovie.Movie;
 
 /**
  *packageName    : com.example.day3.SampleRequest2
- * fileName       : MovieList
+ * fileName       : MovieListResult
  * author         : ipeac
  * date           : 2022-02-24
  * description    :
@@ -11,8 +15,12 @@ package com.example.day3.SampleRequest2;
  * -----------------------------------------------------------
  * 2022-02-24        ipeac       최초 생성
  */
-public class MovieList {
-	  MovieListResult boxOfficeResult;
+public class MovieListResult {
+	  
+	  String boxofficeType;
+	  String showRange;
+	  
+	  ArrayList<Movie> dailyBoxOfficeList = new ArrayList<>();
 }
 
 

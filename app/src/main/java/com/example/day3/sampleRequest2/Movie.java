@@ -1,4 +1,4 @@
-package com.example.day3.SampleMovie;
+package com.example.day3.sampleRequest2;
 
 /**
  *packageName    : com.example.day3.SampleRequest2
@@ -18,7 +18,6 @@ public class Movie {
 	  String rankInten;
 	  String rankOldAndNew;
 	  String movieCd;
-	  String movieNm;
 	  String openDt;
 	  String salesAmt;
 	  String salesShare;

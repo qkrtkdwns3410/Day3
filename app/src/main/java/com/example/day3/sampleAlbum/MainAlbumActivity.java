@@ -1,4 +1,4 @@
-package com.example.day3.SampleAlbum;
+package com.example.day3.sampleAlbum;
 
 import java.io.InputStream;
 

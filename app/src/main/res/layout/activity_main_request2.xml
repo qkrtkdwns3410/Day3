@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".SampleRequest2.MainRequest2Activity"
+    tools:context=".sampleRequest2.MainRequest2Activity"
     >
     
     <EditText
